@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  
+  </head>
+
+  <body>
+    <div class="main-div">
+       
+        <div class="calendar">
+            <input type="date" id="birthDate" onclick="year()">
+
+        </div>
+        <div class="calculate-div"> 
+            <button class="calculate" onclick="calculate()" id="cal">calculate</button>
+        </div>
+       
+    </div>
+  
+    <div class="data-div">
+      <div>
+        <div class="month"  id="mon"></div>
+        <h2>month</h2>
+      </div>
+        <div>
+           <div class="date" id="dayss"></div>
+           <h2>Days</h2>
+           </div>
+           <div>
+              <div class="year" id="yearss"></div>
+              <h2>Years</h2>
+</div>
+
+    </div>
+    
+    <script src="script.js"></script>
+  
+  </body>
+</html>

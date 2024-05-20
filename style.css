@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaini+Purva&family=Poetsen+One&display=swap");
+
+body {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #680747;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-div {
+  background-color: black;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  border-radius: 7px;
+  margin-top: 10%;
+  /* margin: auto; */
+   box-shadow: 7px 7px 15px rgb(26, 26, 26);
+
+}
+.calendar input {
+  border-radius: 4px;
+  border: none;
+  padding: 8% 10%;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 20px;
+}
+input:focus {
+  outline: none;
+}
+.calculate{
+
+    border: none;
+    border-radius: 4px;
+  padding: 8% 15%;
+
+    font-size: 20px;
+    font-family: "Poetsen One", sans-serif;
+    cursor: pointer;
+}
+.data-div{
+    display: flex;
+
+margin-top: 7%;
+width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+.data-div div{
+    background-color: black;
+    padding: 8% 7%;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(145, 137, 137);
+    box-shadow: 7px 7px 15px rgb(26, 26, 26);
+}
+@media screen and (max-width: 768px){
+  body{
+    box-sizing: border-box;
+  }
+  .main-div{
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10%;
+  }
+ 
+
+  .data-div{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .data-div div{
+    margin: 5% 0;
+  }
+  .calendar input{
+    padding: 7% 6%;
+  }
+  .calculate{
+    padding: 7% 10%;
+  }
+}
